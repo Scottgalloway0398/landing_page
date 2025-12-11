@@ -82,7 +82,7 @@ h1 {
 }
 
 img {
-    border-radius: 15px;;
+    border-radius: 10px;
 }
 
 .btn-primary {
@@ -95,6 +95,150 @@ img {
     font-weight: 800;
     border-style: none;
 }
+
+
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0 100px 0;
+    align-items: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.card-section-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1200px;
+    
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: auto;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+    background-color: #1f2937;
+    padding-bottom: 40px;
+    transition: all .2s ease-in-out;
+}
+
+.card-wrapper:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 20px black;
+}
+
+.card-wrapper img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-wrapper p {
+    text-align: center;
+    color: #f9faf8;
+}
+
+
+
+
+.testimonial-section {
+    background-color: #e5e7eb;
+    padding: 60px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+.testimonial {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+.testimonial-name {
+    text-align: end;
+    font-weight: 900;
+}
+
+
+
+
+
+.cta-section {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.cta-wrapper {
+    background-color: #3882f6;
+    padding: 20px 80px 40px 80px;
+    border-radius: 10px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #f9faf8;
+    gap: 0;
+}
+
+.text-wrapper p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.text-wrapper h3 {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 50px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 800;
+    height: fit-content
+}
+
+
+
 
 
 footer {
